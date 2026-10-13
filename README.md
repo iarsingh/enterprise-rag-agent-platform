@@ -1,5 +1,12 @@
 # Enterprise RAG + Agent Platform
 
+## Overview
+
+A capstone lab for an agent that combines retrieval with tool use. A request to `POST /agent/run` first retrieves context and then calls a read tool; any goal that would write is refused. A versioned ops API under `/v1` adds workspaces, tenant isolation, job approval and audit records, and the service ships with Docker, Docker Compose and pytest tests run in GitHub Actions.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop lab; it does not call a hosted model and does not apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
